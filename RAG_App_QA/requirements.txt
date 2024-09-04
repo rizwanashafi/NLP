@@ -1,0 +1,13 @@
+streamlit==1.38.0
+langchain==0.2.15
+langchain_community==0.2.15
+langchain_google_genai==1.0.10
+langchain_core==0.2.37
+faiss-cpu==1.8.0.post1
+sentence-transformers==3.0.1
+requests==2.32.3
+python-dotenv==1.0.1
+qdrant-client==1.11.1
+bs4==0.0.2
+PyMuPDF==1.24.10
+PyPDF2==3.0.1
