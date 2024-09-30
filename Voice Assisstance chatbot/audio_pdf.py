@@ -60,13 +60,13 @@ st.image(audio_image_url, width=800)
 
 # Initialize Qdrant client
 qdrant_client = QdrantClient(
-    url="https://219b944a-b513-4c5d-97e1-3482b560212a.europe-west3-0.gcp.cloud.qdrant.io:6333",
-    api_key="tN1Y4d1CLBZccvv_nMDf1tUNxw4DLnHqfgzanDsvlYJ3GCbhHg-rtQ"
+    url="Add_Qdrant_URL",
+    api_key="Add Qdrant_api_key"
 )
 model_embedding = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 # Set your Google Gemini API key
-api_key = "AIzaSyDdib5LJbf6cTzewU4TZwX2qM_KndAxnoY"
+api_key = "Google_API_Key"
 
 # st.title("Voice Assistant with PDF & Website Interaction🤖")
 
