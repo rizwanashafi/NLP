@@ -1,0 +1,10 @@
+# torch
+# transformers==4.43.3
+# datasets==2.20.0
+# tts
+streamlit==1.37.0
+gtts==2.5.2
+streamlit-mic-recorder==0.0.8
+langchain-google-genai==1.0.8
+langchain-core==0.2.25
+langchain==0.2.11
