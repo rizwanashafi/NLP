@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.txt
         
     - name: Run Python script
-      run: python audio_urdu_chatbot/audio_app.py
+      run: python NLP/audio_app.py
