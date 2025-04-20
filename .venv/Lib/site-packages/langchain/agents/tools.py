@@ -6,10 +6,10 @@ from langchain_core.callbacks import (
     AsyncCallbackManagerForToolRun,
     CallbackManagerForToolRun,
 )
-from langchain_core.tools import BaseTool, Tool, tool
+from langchain_core.tools import BaseTool, tool
 
 
-class InvalidTool(BaseTool):
+class InvalidTool(BaseTool):  # type: ignore[override]
     """Tool that is run when invalid tool name is encountered by agent."""
 
     name: str = "invalid_tool"
@@ -44,4 +44,4 @@ class InvalidTool(BaseTool):
         )
 
 
-__all__ = ["InvalidTool", "BaseTool", "tool", "Tool"]
+__all__ = ["InvalidTool", "tool"]
